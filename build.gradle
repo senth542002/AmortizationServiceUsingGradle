@@ -4,14 +4,14 @@ buildscript{
 	}
 	
 	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE")
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.5.RELEASE")
 	}
 }
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply plugin: 'spring-boot'
+apply plugin: 'org.springframework.boot'
 
 jar {
 	baseName = 'amortization-service'
@@ -33,5 +33,5 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-jetty")
     compile("org.springframework.boot:spring-boot-starter-actuator")
 
-    testCompile 'junit:junit'
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
