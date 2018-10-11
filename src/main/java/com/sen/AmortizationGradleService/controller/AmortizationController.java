@@ -1,4 +1,4 @@
-package com.sen.controller;
+package com.sen.AmortizationGradleService.controller;
 
 
 import java.util.List;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sen.model.LoanBalanceData;
-import com.sen.service.AmortizationService;
+import com.sen.AmortizationGradleService.model.LoanBalanceData;
+import com.sen.AmortizationGradleService.service.AmortizationService;
 
 @RestController
 public class AmortizationController {

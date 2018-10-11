@@ -1,9 +1,9 @@
-package com.sen.service;
+package com.sen.AmortizationGradleService.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sen.model.LoanBalanceData;
+import com.sen.AmortizationGradleService.model.LoanBalanceData;
 
 public class AmortizationService {
 	

@@ -1,4 +1,4 @@
-package com.sen.model;
+package com.sen.AmortizationGradleService.model;
 
 public class LoanBalanceData {
 	private Double monthlyPayment;
